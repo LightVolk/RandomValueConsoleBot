@@ -31,7 +31,7 @@ namespace RandomValueConsoleBot
             Bot.OnInlineQuery += BotOnInlineQueryReceived;
             var me = Bot.GetMeAsync().Result;
 
-            Console.Title = me.Username;
+            Console.Title = me.Username;//username
 
             Bot.StartReceiving();
             Console.ReadLine();
