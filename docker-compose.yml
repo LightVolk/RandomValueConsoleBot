@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  randomvalueconsolebot:
+    image: randomvalueconsolebot
+    build:
+      context: ./RandomValueConsoleBot
+      dockerfile: Dockerfile
